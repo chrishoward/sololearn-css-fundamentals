@@ -5,7 +5,7 @@
 
 :book:  Course information: https://www.sololearn.com/Course/CSS/  
 
-Each lesson consisted of theory, code examples, multiple choice quizzes & coding exercises.
+Each lesson consisted of theory, code examples, multiple choice quizzes & coding exercises. See CSS files in 'Study-Course-SoloLearn-HTML-Fundamentals' repository to view my implementation of the theory learnt in this course.
 - [x] Denotes lesson completed.
 
 ## Curriculum: 
