@@ -1,5 +1,3 @@
-<test>
-    
 ![SoloLearn Logo](https://i.imgur.com/7GLNRQn.png)
 
 ## SoloLearn Course: CSS Fundamentals
@@ -95,4 +93,3 @@ Each lesson consisted of theory, code examples, multiple choice quizzes & coding
     1. [x] Animation Properties
     1. [x] 3D Transforms
     1. [x] Module 7 Quiz *(5 Multiple Choice & Coding Quizzes)*
-</test>
