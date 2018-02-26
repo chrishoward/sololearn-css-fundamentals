@@ -1,0 +1,201 @@
+/************ CSS styling reset *************
+   Required to reset all browser default styles back to a baseline, as defined below
+   Avoid redundant styling, e.g. don't define a property value here (such as 'body { line-height: 1; }') and then redefine it in your main css file (ie. body { line-height: 2; })
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/************ CSS styling *************/
+body {
+	padding: 20px;
+	/* font-family: arial; */
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    /* font-weight: bold; */
+    font-style: italic;
+}
+
+h3 {
+	font-weight: bold;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+p {
+	font-size: 16px;
+	font-style: italic;
+	line-height: 24px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.container {
+	display: flex;
+    width: 50%;
+	background: lightblue;
+	padding: 10px;
+}
+
+.row {
+	flex-direction: row;
+}
+
+.column {
+	flex-direction: column;
+	height: 200px;
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+
+.wrap-reverse {
+	flex-wrap: wrap-reverse;
+}
+
+.item {
+	background: #2486b7;
+	margin: 5px;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+	color: white;
+}
+
+.item-row {
+	height: 50px;
+}
+
+/* Example 1 */
+.item1-1, .item2-1, .item3-1 {
+}
+
+/* Example 2 */
+.item1-2, .item2-2, .item3-2 {
+	flex-grow: 1;
+}
+
+/* Example 3 */
+.item1-3, .item3-3 {
+	flex-grow: 1;
+}
+
+.item2-3 {
+	flex-grow: 2;
+}
+
+/* Example 4 */
+.item1-4 {
+	flex-grow: 1;
+	order: 3;
+}
+
+.item2-4 {
+	flex-grow: 1;
+	order: 1;
+}
+
+.item3-4 {
+	flex-grow: 1;
+	order: 2;
+}
+
+/* Example 5 */
+.item1-5, .item2-5, .item3-5 {
+	flex-grow: 1;
+}
+
+/* Example 6 */
+.item1-6, .item2-6, .item3-6, .item4-6, .item5-6, .item6-6 {
+	flex-grow: 1;
+}
+
+.item2-6 {
+	width: 300px;
+}
+
+/* Example 7 */
+.item1-7, .item2-7, .item3-7, .item4-7, .item5-7, .item6-7 {
+	flex-grow: 1;
+}
+
+.item2-7 {
+	width: 300px;
+}
+
+
+
+
+
+
+
+/* Example  */
+.item1- {
+	/* flex-grow: 1; */
+}
+
+.item2- {
+	/* flex-grow: 2; */
+}
+
+.item3- {
+	/* flex-grow: 1; */
+}
