@@ -89,7 +89,7 @@ strong {
 
 .container {
 	display: flex;
-    width: 50%;
+	width: 50%;
 	background: lightblue;
 	padding: 10px;
 }
